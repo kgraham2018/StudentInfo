@@ -1,5 +1,5 @@
 <html>
-<title>Interactive Web Page</title>
+<title>Student Assessment Profiles</title>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -7,7 +7,8 @@
 <style>
 body {background-color: powderblue;}
 h1{
-color: Red;
+color: Blue;
+text-align:center;
 }
 a{
 cursor:pointer;
@@ -27,25 +28,143 @@ div.demo span {
 </style>
 
 <div id = "container">
-<h1>Blue</h1>
+<h1>Student Assessment Profiles</h1>
 </div>
 
 <div class="demo">
     <span>
-		<a><img src="pokeman.jpg" alt="Picasso" style="width:100px;height:100px;" class="showContent" id="Robbie"></a>
-		<p id="RobbieTxt">This is about Robbie</p>
-		<!--<a><embed src="Adam_4th.pdf" width="800px" height="2100px" />doc</a>
-		<iframe src="Adam_4th.docx" style="width: 100%;height: 100%;border: none;"></iframe>!-->
+		<a><img src="Adam.jpg" alt="Adam" style="width:100px;height:100px;" class="showContent" id="Adam"></a>
+		<p id="AdamTxt">Adam</p><br/>
 		<a href= "Adam_4th.pdf" target="_blank" title="Adam_4th">Adam_4th</a>
 	</span>
+	
     <span>
-		<a><img src="pokeman.jpg" alt="Picasso" style="width:100px;height:100px;" class="showContent" id="Sam"></a>
-		<p id="SamTxt">This is about Sam</p>
+		<a><img src="Amanda.jpg" alt="Amanda" style="width:100px;height:100px;" class="showContent" id="Amanda"></a>
+		<p id="AmandaTxt">Amanda</p><br/>
+		<a href= "Amanda_Kindergarten.pdf" target="_blank" title="Amanda_Kindergarten">Amanda_Kindergarten</a>
 	</span>
     <span>
-		<a><img src="pokeman.jpg" alt="Picasso" style="width:100px;height:100px;" class="showContent" id="Joey"></a>
-		<p id="JoeyTxt">This is about Joey</p>
+		<a><img src="Apple.jpg" alt="Apple" style="width:100px;height:100px;" class="showContent" id="Apple"></a>
+		<p id="AppleTxt">Apple</p><br/>
+		<a href= "Apple_3rd.pdf" target="_blank" title="Apple_3rd">Apple_3rd</a>
 	</span>
+	<span>
+		<a><img src="Billy.jpg" alt="Billy" style="width:100px;height:100px;" class="showContent" id="Billy"></a>
+		<p id="BillyTxt">Billy</p><br/>
+		<a href= "Billy_1st.pdf" target="_blank" title="Billy_1st">Billy_1st</a>
+	</span>
+</div>
+<br/>
+<div class="demo">
+    <span>
+		<a><img src="Estrella.jpg" alt="Estrella" style="width:100px;height:100px;" class="showContent" id="Estrella"></a>
+		<p id="EstrellaTxt">Estrella</p><br/>
+		<a href= "Estrella_1st.pdf" target="_blank" title="Adam_4th">Estrella_1st</a>
+	</span>
+    <span>
+		<a><img src="Finn.jpg" alt="Finn" style="width:100px;height:100px;" class="showContent" id="Finn"></a>
+		<p id="FinnTxt">Finn</p><br/>
+		<a href= "Finn_2nd.pdf" target="_blank" title="Finn_2nd">Finn_2nd</a>
+	</span>
+    <span>
+		<a><img src="Joe.jpg" alt="Joe" style="width:100px;height:100px;" class="showContent" id="Joe"></a>
+		<p id="JoeTxt">Joe</p><br/>
+		<a href= "Joe_3rd.pdf" target="_blank" title="Joe_3rd">Joe_3rd</a>
+	</span>
+	<span>
+		<a><img src="Joseph.jpg" alt="Joseph" style="width:100px;height:100px;" class="showContent" id="Joseph"></a>
+		<p id="JosephTxt">Joseph</p><br/>
+		<a href= "Joseph_Kindergarten.pdf" target="_blank" title="Joseph_Kindergarten">Joseph_Kindergarten</a>
+	</span>
+</div>
+<br/>
+<div class="demo">
+    <span>
+		<a><img src="Julia.jpg" alt="Julia" style="width:100px;height:100px;" class="showContent" id="Julia"></a>
+		<p id="JuliaTxt">Adam</p><br/>
+		<a href= "Julia_4th.pdf" target="_blank" title="Julia_4th">Julia_4th</a>
+	</span>
+	
+    <span>
+		<a><img src="Julio.jpg" alt="Julio" style="width:100px;height:100px;" class="showContent" id="Julio"></a>
+		<p id="JulioTxt">Amanda</p><br/>
+		<a href= "Julio_3rd.pdf" target="_blank" title="Julio_3rd">Julio_3rd</a>
+	</span>
+    <span>
+		<a><img src="Katie.jpg" alt="Katie" style="width:100px;height:100px;" class="showContent" id="Katie"></a>
+		<p id="KatieTxt">Apple</p><br/>
+		<a href= "Katie_1st.pdf" target="_blank" title="Katie_1st">Katie_1st</a>
+	</span>
+	<span>
+		<a><img src="Liam.jpg" alt="Liam" style="width:100px;height:100px;" class="showContent" id="Liam"></a>
+		<p id="LiamTxt">Billy</p><br/>
+		<a href= "Liam_Kindergarten.pdf" target="_blank" title="Liam_Kindergarten">Liam_Kindergarten</a>
+	</span>
+</div>
+<br/>
+<div class="demo">
+    <span>
+		<a><img src="Nathan.jpg" alt="Nathan" style="width:100px;height:100px;" class="showContent" id="Nathan"></a>
+		<p id="NathanTxt">Zoe_4th</p><br/>
+		<a href= "Nathan_4th.pdf" target="_blank" title="Nathan_4th">Nathan_4th</a>
+	</span>
+    <span>
+		<a><img src="Talon.jpg" alt="Talon" style="width:100px;height:100px;" class="showContent" id="Talon"></a>
+		<p id="TalonTxt">Finn</p><br/>
+		<a href= "Talon_2nd.pdf" target="_blank" title="Talon_2nd">Talon_2nd</a>
+	</span>
+    <span>
+		<a><img src="Will.jpg" alt="Will" style="width:100px;height:100px;" class="showContent" id="Will"></a>
+		<p id="WillTxt">Joe</p><br/>
+		<a href= "Will_4th.pdf" target="_blank" title="Will_4th">Will_4th</a>
+	</span>
+	<span>
+		<a><img src="Zoe.jpg" alt="Zoe" style="width:100px;height:100px;" class="showContent" id="Zoe"></a>
+		<p id="ZoeTxt">Joseph</p><br/>
+		<a href= "Zoe_4th.pdf" target="_blank" title="Zoe_4th">Zoe_4th</a>
+	</span>
+</div>
+<br/>
+<div class="demo">
+    <span>
+		<a><img src="Ariana.jpg" alt="Ariana" style="width:100px;height:100px;" class="showContent" id="Ariana"></a>
+		<p id="ArianaTxt">Zoe_4th</p><br/>
+		<a href= "Ariana_2nd.pdf" target="_blank" title="Ariana_2nd">Ariana_2nd</a>
+	</span>
+    <span>
+		<a><img src="Jacob.jpg" alt="Jacob" style="width:100px;height:100px;" class="showContent" id="Jacob"></a>
+		<p id="JacobTxt">Finn</p><br/>
+		<a href= "Jacob_3rd.pdf" target="_blank" title="Jacob_3rd">Jacob_3rd</a>
+	</span>
+    <span>
+		<a><img src="June.jpg" alt="June" style="width:100px;height:100px;" class="showContent" id="June"></a>
+		<p id="JuneTxt">Joe</p><br/>
+		<a href= "June_2nd.pdf" target="_blank" title="June_2nd">June_2nd</a>
+	</span>
+	<span>
+		<a><img src="Cameron.jpg" alt="Cameron" style="width:100px;height:100px;" class="showContent" id="Cameron"></a>
+		<p id="CameronTxt">Joseph</p><br/>
+		<a href= "Cameron_4th.pdf" target="_blank" title="Cameron_4th">Cameron_4th</a>
+	</span>
+</div>
+<br/>
+<div class="demo">
+    <span>
+		<a><img src="Morgan.jpg" alt="Morgan" style="width:100px;height:100px;" class="showContent" id="Morgan"></a>
+		<p id="MorganTxt">Morgan</p><br/>
+		<a href= "Morgan_5th.pdf" target="_blank" title="Morgan_5th">Morgan_5th</a>
+	</span>
+    <span>
+		<a><img src="Robert.jpg" alt="Robert" style="width:100px;height:100px;" class="showContent" id="Robert"></a>
+		<p id="RobertTxt">Finn</p><br/>
+		<a href= "Robert_2nd.pdf" target="_blank" title="Robert_2nd">Robert_2nd</a>
+	</span>
+    <span>
+		<a><img src="KatieK.jpg" alt="KatieK" style="width:100px;height:100px;" class="showContent" id="KatieK"></a>
+		<p id="KatieKTxt">Joe</p><br/>
+		<a href= "Katie_Kindergarten.pdf" target="_blank" title="Katie_Kindergarten">Katie_Kindergarten</a>
+	</span>
+	
 </div>
 
 </html>
